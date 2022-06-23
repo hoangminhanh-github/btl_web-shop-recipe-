@@ -41,6 +41,7 @@ function Popular() {
   },[])
   const getPopular=async ()=>{
 
+    
     const check=localStorage.getItem('popular')
 
     if(check){

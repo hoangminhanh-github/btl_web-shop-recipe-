@@ -69,6 +69,7 @@ function Veggie() {
 
             </Link>
             </Card>
+            
           </SplideSlide>
         ))}
 
