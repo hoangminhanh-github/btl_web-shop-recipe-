@@ -11,7 +11,7 @@ import {
 } from 'react-router-dom';
 import Searched from '../components/Searched';
 import {AnimatePresence} from 'framer-motion'
-
+import Admin from '../components/Admin';
 function Pages() {
   const location=useLocation()
   return (
@@ -21,6 +21,7 @@ function Pages() {
       <Route path='/cuisine/:type' element={<Cuisine/>}></Route>
       <Route path='/searched/:search' element={<Searched/>}></Route>
       <Route path='recipe/:name' element={<Recipe/>}></Route>
+      <Route path='/admin' element={<Admin/>}></Route>
       </Routes>
       </AnimatePresence>
     

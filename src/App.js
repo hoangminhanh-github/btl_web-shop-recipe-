@@ -13,7 +13,7 @@ import {
 import './index.css'
 import styled from 'styled-components'
 import {GiKnifeFork} from 'react-icons/gi'
-
+import Admin from "./components/Admin";
 function App() {
   
   return (
@@ -27,10 +27,12 @@ function App() {
       <Search></Search>
       <Category/>
       <Pages></Pages>
+      {/* <Admin></Admin> */}
       {/* <Test></Test> */}
       </div>
-
+      
     </Router>
+   
    
   )
 }
